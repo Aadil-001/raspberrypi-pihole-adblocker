@@ -11,30 +11,28 @@ Create a reliable network-wide ad blocker using Pi-hole on a Raspberry Pi 5 to b
 ---
 
 ## Repository Structure
-raspberrypi-pihole-adblocker
-│
+
+```
+raspberrypi-pihole-adblocker/
 ├── README.md
-│
 ├── images/
 │   └── screenshots and reference images
-│
 ├── setup/
 │   ├── 01_initial-setup.md
 │   ├── 02_wifi-and-networking.md
 │   ├── 03_ssh-setup.md
 │   └── 04_static-ip-and-dhcp-notes.md
-│
 ├── pihole/
 │   ├── 01_installation.md
 │   ├── 02_configuration.md
 │   ├── 03_dns-testing.md
 │   ├── 04_disable-or-uninstall.md
 │   └── 05_troubleshooting-log.md
-│
 └── logs/
-├── day1-terminal-log.md
-├── network-events.md
-└── lessons-learned.md
+    ├── day1-terminal-log.md
+    ├── network-events.md
+    └── lessons-learned.md
+```eoD
 ---
 
 ## Skills Demonstrated
